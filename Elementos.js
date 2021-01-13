@@ -13,3 +13,4 @@ function RepeMinToMax(arr){
 }
 
 document.write(RepeMinToMax(arrMinToMax));
+//test
