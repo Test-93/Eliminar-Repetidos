@@ -13,3 +13,15 @@ function RepeMinToMax(arr){
 }
 
 document.write(RepeMinToMax(arrMinToMax));
+
+function MetodoIndexOf(arr){
+    let auxArr=[];
+    for (let i = 0; i < arr.length; i++) {      
+      if (auxArr.indexOf(arr[i])===-1){
+          auxArr.push(arr[i]);
+        }
+      }
+  return(auxArr);
+}
+document.write("<br>",MetodoIndexOf(arrMixed));
+//document.write(RepeMinToMax(arrMinToMax));
